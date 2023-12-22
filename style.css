@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Karla', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Dark--Violet: hsl(256, 26%, 20%);
+    --Very--Dark--Violet: hsl(270, 9%, 17%);
+    --Dark--Grayish--Violet: hsl(273, 4%, 51%);
+    --Very--Light--Gry: hsl(0, 0%, 98%);
+    --Light--Grayish--Blue: hsl(220, 16%, 96%);
+    --Very--Light--Gray: hsl(0, 0%, 98%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    /* font-family: 'DM Serif Display', serif; */
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+img,
+span,
+svg {
+    display: block;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+button {
+    border: none;
+    background: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    background: blueviolet;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar {
+    background: var(--White);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 18px;
+}
+
+.navbar-toggle-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0 20px;
+}
+
+.navbar-toggle-btn span {
+    display: block;
+    background: var(--Very--Dark--Violet);
+    width: 25px;
+    height: 1px;
+    transition: 0.25s ease;
+}
+
+.navbar-toggle-btn.active .one {
+    transform: rotate(45deg) translateY(3px);
+}
+
+.navbar-toggle-btn.active .two {
+    display: none;
+}
+
+.navbar-toggle-btn.active .three {
+    transform: rotate(-45deg) translateY(-3px);
+}
+
+.navbar-nav {
+    position: fixed;
+    background: var(--White);
+    top: 60px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+    border-radius: 5px;
+    z-index: -1;
+    opacity: 99;
+    transition: 0.5s ease;
+    pointer-events: none;
+}
+
+.navbar-nav a {
+    color: var(--Dark--Violet);
+    display: block;
+}
+
+.navbar-nav.active {
+    top: calc(60px + 20px);
+    opacity: 1;
+    box-shadow: 0 0 100px 100px hsla(233, 26%, 24%, 0.2);
+    pointer-events: all;
+}
