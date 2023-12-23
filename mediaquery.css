@@ -1,0 +1,244 @@
+@media (min-width: 768px) {
+    
+    .home-text {
+        font: 18px;
+        max-width: 600px;
+    }
+
+    .section-text {
+        font-size: 18px;
+        max-width: 400px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    
+    .service-card-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 50%;
+    }
+
+    .blog .section-title {
+        margin-bottom: 50px;
+    }
+
+    .article-card-group {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .article-card {
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    header {
+        position: static;
+    }
+
+    .navbar {
+        padding: 0 18px;
+    }
+
+    .navbar img {
+        margin-left: 4rem;
+    }
+
+    .navbar-toggle-btn {
+        display: none;
+    }
+
+    .navbar-nav {
+        position: static;
+        padding: 0;
+        z-index: 0;
+        flex-direction: row;
+        gap: 30px;
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .navbar-nav a {
+        font-size: 15px;
+        color: var(--Grayish-Blue);
+        padding: 30px 0;
+        transition: 0.25s ease;
+    }
+
+    .navbar-nav a:hover {
+        color: var(--Dark--Blue);
+        box-shadow: inset 0 -3px 0 var(--Lime--Green);
+    }
+
+    .navbar .invite-btn {
+        display: block;
+        margin: 0;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 0;
+    }
+
+    .home-img-box {
+        width: 55%;
+        background: url(images/bg-intro-desktop.svg) no-repeat bottom left;
+        background-size: 150%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-img-box .home-img {
+        width: 75%;
+        transform: translate(250px, -10px) scale(1.3);
+        aspect-ratio: unset;
+    }
+
+    .home .wrapper {
+        width: 45%;
+        padding-left: 20px;
+    }
+
+    .home-title {
+        font-size: 55px;
+        text-align: left;
+        padding: 0;
+    }
+
+    .home-text {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+        max-width: 450px;
+    }
+
+    .wrapper {
+        margin-left: 4rem;
+    }
+
+    .wrapper .invite-btn {
+        margin: 0;
+    }
+
+    .service {
+        padding: 100px 20px;
+    }
+
+    .section-title {
+        text-align: left;
+        font-size: 40px;
+        margin-left: 4rem;
+    }
+
+    .section-text {
+        text-align: left;
+        max-width: 650px;
+        margin: 0;
+        margin-bottom: 80px;
+        margin-left: 4rem;
+    }
+
+    .service-card-group {
+        justify-content: center;
+        align-items: flex-start;
+        gap: 22px;
+        margin-left: -4rem;
+    }
+
+    .service-card {
+        width: 19%;
+        text-align: left;
+    }
+
+    .service-card .card-icon {
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+    .service-card .card-title {
+        font-size: 24px;
+        text-align: justify;
+    }
+
+    .service-card .card-text {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .blog {
+        padding: 100px 20px;
+    }
+
+    .article-card-group {
+        justify-content: center;
+        align-items: flex-start;
+        gap: 22px;
+        margin-left: -4rem;
+    }
+
+    .article-card {
+        width: 19%;
+        text-align: left;
+    }
+
+    .card-body .card-title {
+        text-align: left;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        flex-direction: row;
+        margin-left: 4rem;
+        padding: 50px 20px;
+    }
+
+    .footer-row1 {
+        margin-top: 0;
+    }
+
+    .social-links {
+        margin-top: 70px;
+    }
+
+    footer {
+        overflow-y: hidden;
+    }
+
+    .footer-links,
+    .footer-links2 {
+        display: flex;
+        justify-content: center;
+        align-items: self-start;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-links {
+        margin-left: -10rem;
+    }
+
+    .footer-links2 {
+        margin-left: -16rem;
+    }
+
+    .footer-row3 .invite-btn {
+        margin-left: auto;
+    }
+
+    .footer-row3 {
+        margin-right: 7rem;
+    }
+}
