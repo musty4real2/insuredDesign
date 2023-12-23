@@ -144,12 +144,14 @@ main {
     background-size: cover;
     padding: 0 15px;
     margin-bottom: 40px;
+    position: relative;
 }
 
 .home-img-box home-img {
     aspect-ratio: 1/1;
     object-fit: cover;
     object-position: bottom;
+
 }
 
 .home-title {
@@ -172,6 +174,7 @@ main {
 
 .home-text {
     margin: auto;
+    width: 135%;
     color: var(--Dark--Blue);
     text-align: center;
     font-size: 15px;
@@ -189,7 +192,7 @@ main {
     left: 0px;
     font-size: 18px;
     color: red;
-    top: 325px;
+    top: 498px;
     z-index: 999;
 }
 
@@ -209,9 +212,10 @@ main {
 }
 
 .home-imgN{
+    display: block;
     margin-left: 220px;
-    padding-top:140px;
-    z-index: 1;
-    position: relative;
+    margin-top: 55px;
+    padding-top:170px;    
+    font-weight: 400;
 
 }
