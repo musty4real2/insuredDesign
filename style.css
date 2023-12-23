@@ -197,7 +197,7 @@ main {
     position: absolute;
     background-image: url(images/bg-pattern-intro-right-desktop.svg);
     background-repeat: no-repeat;
-    width: 35%;
+    width: 25%;
     height: 65vh;
     bottom: 8px;
     right: 0px;
@@ -206,4 +206,12 @@ main {
     top: 65px;
     z-index: 999;
     margin-right: 0px;
+}
+
+.home-imgN{
+    margin-left: 220px;
+    padding-top:140px;
+    z-index: 1;
+    position: relative;
+
 }
