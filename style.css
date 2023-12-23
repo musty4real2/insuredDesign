@@ -38,11 +38,11 @@ li {
 
 a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 button {
-    border: 3px solid black;
+    border: 2px solid black;
     background: none;
     font: inherit;
     cursor: pointer;
@@ -52,7 +52,6 @@ button {
 .container {
     max-width: 1440px;
     margin: auto;
-    background: blueviolet;
 }
 
 header {
@@ -75,7 +74,8 @@ header {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    padding: 0 20px;
+    padding: 8px 40px;
+    height: 30px;
 }
 
 .navbar-toggle-btn span {
@@ -117,11 +117,6 @@ header {
     /* margin-right: 150px; */
 }
 
-.navbar-nav li:nth-last-child(1){
-    margin-right: 120px;
-
-}
-
 .navbar-nav a {
     color: var(--Dark--Violet);
     display: block;
@@ -132,4 +127,83 @@ header {
     opacity: 1;
     box-shadow: 0 0 100px 100px hsla(233, 26%, 24%, 0.2);
     pointer-events: all;
+}
+
+main {
+    overflow: hidden;
+}
+
+.home {
+    background: var(--Dark--Violet);
+    color: var(--White);
+    padding-bottom: 70px;
+}
+
+.home-img-box {
+    background: url(images/bg-pattern-intro-right-desktop.svg) no-repeat top;
+    background-size: cover;
+    padding: 0 15px;
+    margin-bottom: 40px;
+}
+
+.home-img-box home-img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.home-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--White);
+    margin-bottom: 20px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.home-title br {
+    display: none;
+}
+
+.home-text br {
+    display: none;
+}
+
+.home-text {
+    margin: auto;
+    color: var(--Dark--Blue);
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 80px;
+    padding: 0 20px;
+}
+
+.bottomleft {
+    position: absolute;
+    background-image: url(images/bg-pattern-intro-left-desktop.svg);
+    width: 35%;
+    height: 65vh;
+    background-repeat: no-repeat;
+    bottom: 8px;
+    left: 0px;
+    font-size: 18px;
+    color: red;
+    top: 325px;
+    z-index: 999;
+}
+
+.topright {
+    position: absolute;
+    background-image: url(images/bg-pattern-intro-right-desktop.svg);
+    background-repeat: no-repeat;
+    width: 35%;
+    height: 65vh;
+    bottom: 8px;
+    right: 0px;
+    font-size: 18px;
+    color: red;
+    top: 65px;
+    z-index: 999;
+    margin-right: 0px;
 }
