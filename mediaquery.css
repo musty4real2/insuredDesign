@@ -137,6 +137,13 @@
         background:white;
         margin-bottom: 30px;
     }
+    .spacer2{
+        width: 15%;
+        height: 3px;
+        background:rgb(238, 228, 228);
+        margin-bottom: 30px;
+        margin-left: 12rem;
+    }
 
     .wrapper .invite-btn {
         border: 2px solid white;
@@ -150,13 +157,14 @@
 
     .section-title {
         text-align: left;
-        font-size: 40px;
-        margin-left: 4rem;
+        font-size: 55px;
+        margin-left: 12rem;
+        margin-bottom: 6rem;
     }
 
     .section-text {
         text-align: left;
-        max-width: 650px;
+        max-width: 850px;
         margin: 0;
         margin-bottom: 80px;
         margin-left: 4rem;
@@ -170,7 +178,7 @@
     }
 
     .service-card {
-        width: 19%;
+        width: 20%;
         text-align: left;
     }
 
@@ -182,6 +190,7 @@
     .service-card .card-title {
         font-size: 24px;
         text-align: justify;
+
     }
 
     .service-card .card-text {

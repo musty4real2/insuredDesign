@@ -211,11 +211,62 @@ main {
     margin-right: 0px;
 }
 
-.home-imgN{
+.home-imgN {
     display: block;
     margin-left: 220px;
     margin-top: 55px;
-    padding-top:170px;    
+    padding-top: 170px;
     font-weight: 400;
 
+}
+
+
+.service {
+    padding: 100px 20px;
+}
+
+.section-title {
+    text-align: left;
+    font-size: 40px;
+    margin-left: 4rem;
+}
+
+.section-text {
+    text-align: left;
+    max-width: 650px;
+    margin: 0;
+    margin-bottom: 80px;
+    margin-left: 4rem;
+}
+
+.service-card-group {
+    justify-content:space-between;
+    align-items: flex-start;
+    gap: 150px;
+    margin-left: -4rem;
+}
+
+.service-card {
+    width: 150%;
+    text-align: left;
+}
+
+.service-card .card-icon {
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.service-card .card-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 30px;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.service-card .card-text {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    width: 95%;
+    margin-bottom: 2rem;
 }
